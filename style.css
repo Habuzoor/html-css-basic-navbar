@@ -92,3 +92,10 @@ header {
 .lang a:nth-child(2) {
     border-right: #0D2052 .3px solid;
 }
+
+@media only screen and (max-width: 1400px) {
+    header {
+        flex-direction: column;
+        gap: 2em;
+    }
+}
