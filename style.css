@@ -1,0 +1,94 @@
+*, *::before, *::after {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+    ;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.logo img {
+    width: 250px;
+    cursor: pointer;
+}
+
+.mainMenu ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.mainMenu li {
+    display: inline;
+    margin: 20px;
+}
+
+.mainMenu li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+}
+
+.mainMenu li a:hover {
+    color: rgb(16, 16, 16);
+}
+
+.contact {
+    font-weight: bold;
+    display: flex;
+}
+
+.contact div {
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact .ayuda {
+    border-start-start-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: #446D99;
+    margin-right: 1px;
+    transition: transform .3s;
+}
+
+.contact .work{
+    border-end-end-radius: 1rem;
+    border-start-end-radius: 1rem;
+    background-color: #0D2052;
+    transition: transform .3s;
+}
+
+.contact .work:hover, .contact .ayuda:hover{
+   transform: translateY(-10px);
+   background-color: black;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.lang > * {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0D2052;
+    padding-right: 5px;
+}
+
+.lang a:hover {
+    color: #446D99;
+}
+
+.lang a:first-child {
+    border-right: #0D2052 .3px solid;
+}
+
+.lang a:nth-child(2) {
+    border-right: #0D2052 .3px solid;
+}
